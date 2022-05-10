@@ -78,14 +78,12 @@
 }
 /* Solution 7 */
 .ex-7-img:hover {
-    filter: grayscale(1);
-    filter: sepia(0.6);
+    filter: grayscale(0.6) sepia(0.5);
 }
 /* Solution 8 */
 .ex-8-img:hover {
     border-radius: 20px;
-    filter: hue-rotate(90deg);
-    filter: saturate(0.3);
+    filter: grayscale(0.6) sepia(0.5);
 }
 /* ------------------------------------- */
 /* Exercise 9 */
@@ -98,7 +96,7 @@
 .ex-9-img:hover {
     transform: scale(1.5);
     border-radius: 20px;
-    filter: drop-shadow(5px 5px 5px red) invert(100%);
+    filter: grayscale(0.6) sepia(0.5);;
 }
 /* ------------------------------------- */
 /* Exercise 10 */
